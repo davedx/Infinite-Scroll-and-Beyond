@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<body>
+	<p>Example content container with template for infinite scroller</p>
+
+	<!-- this is the template that is used to generate the HTML from a JSON webservice -->
+	<script id="tpl_content" type="text/template">
+	<div class="container">
+		<h2>##title##</h2>
+		<h3>##origin##</h3>
+		<img src="/content/##user_id##/##id####file_ext##">
+	</div>
+	</script>
+
+	<!-- the div to append your content to -->
+	<div id="content">
+	</div>
+</body>
+</html>
