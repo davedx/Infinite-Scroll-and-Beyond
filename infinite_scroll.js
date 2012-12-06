@@ -1,5 +1,8 @@
 "use strict";
 
+// Released under MIT License: http://opensource.org/licenses/MIT
+// Dave Clayton <davedx@gmail.com>
+
 function Content() {
 
 	this.index = 0;
